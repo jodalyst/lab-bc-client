@@ -21,4 +21,7 @@ dependencies = [
 ]
 [project.urls]
 Homepage = "https://fpga.mit.edu/6205/F24/documentation/lab-bc"
-Homepage = "https://fpga.mit.edu/6205/F24/documentation/lab-bc"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
